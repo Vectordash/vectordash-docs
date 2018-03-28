@@ -1,4 +1,6 @@
-site
+# mkdocs deployed
+site/
+
+# Unnecessary
 .DS_Store
-.idea
-*.sw[op]
+.idea/
