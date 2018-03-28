@@ -6,7 +6,7 @@ For the github repository visit the [vectordash-cli github](https://github.com/V
 
 Welcome to [Vectordash](https://vectordash.com/)! Here you'll find comprehensive information for training and deploying your deep learning and AI applications with our platform. We do our best to make this documentation clear and user friendly, but if you have unanswered questions, please visit the community forum or contact us.
 
-The fastest way to get up and running is to use our quickstart guide, which walks through an entire FloydHub training job step-by-step. You'll create a new Project on the FloydHub web dashboard, connect it to a local directory on your computer, and then kick-off a job using the FloydHub CLI to train your deep learning model on FloydHub's GPU servers.YOOOOO
+The fastest way to get up and running is to use our quickstart guide, which walks through an entire FloydHub training job step-by-step. You'll create a new Project on the FloydHub web dashboard, connect it to a local directory on your computer, and then kick-off a job using the FloydHub CLI to train your deep learning model on FloydHub's GPU servers.
 
 ## Commands
 
