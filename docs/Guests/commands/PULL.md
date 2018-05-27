@@ -8,9 +8,10 @@ vectordash pull MACHINE_ID FROM_PATH TO_PATH
 ### Options
 | Name, shorthand | Default | Description |
 | --------------- | ------- | ----------- |
-| MACHINE_ID |      | ID number of machine to connect to. |
-| FROM_PATH |      | Path of local file or directory. |
-| TO_PATH | . | Path to remote Vectordash machine directory. Defaults to current directory. |
+| MACHINE_ID |      | ID number of machine to pull files from. |
+| FROM_PATH |      | Path to remote Vectordash machine directory. |
+| TO_PATH | . | Path of local file or directory. Defaults to current directory. |
+
 
 ### Description
 Use this command to transfer files/directories from a rented Vectordash machine to your local machine. The `MACHINE_ID` can be found by running `vectordash list`. 

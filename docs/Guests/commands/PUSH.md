@@ -8,7 +8,7 @@ vectordash push MACHINE_ID FROM_PATH TO_PATH
 ### Options
 | Name, shorthand | Default | Description |
 | --------------- | ------- | ----------- |
-| MACHINE_ID |      | ID number of machine to connect to. |
+| MACHINE_ID |      | ID number of machine to push files to. |
 | FROM_PATH |      | Path of local file or directory. |
 | TO_PATH | ~ | Path to remote Vectordash machine directory. Defaults to home directory. |
 
