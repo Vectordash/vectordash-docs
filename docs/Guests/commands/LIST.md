@@ -6,7 +6,7 @@ vectordash list
 ```
 
 ### Description
-Use this command to list all of the machines and their ID numbers you are currently renting. You will need to have run `vectordash secret [secret-token]` beforehand.
+Use this command to list all of the machines and their ID numbers you are currently renting. You will need to have run `vectordash secret SECRET_TOKEN` beforehand.
 
 
 ### Example

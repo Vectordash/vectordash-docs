@@ -3,7 +3,7 @@
 Register by creating an account at [Vectordash](https://vectordash.com/)! Confirm your email and fill out some personal information. Navigate through the pages to understand our service and Terms & Conditions.  
 
 
-## Dear guests
+## Dear users
 
 To use Vectordash CLI, you must install it on your machine. For Mac, Linux, and Windows machines, you can install it through  `pip`. You must first install `pip` if you have not already done so. We recommend using `pip3`, however, the `pip` is also fine.
 

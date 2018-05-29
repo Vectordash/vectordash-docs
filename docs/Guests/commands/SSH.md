@@ -11,7 +11,7 @@ vectordash ssh MACHINE_ID
 | MACHINE_ID |      | ID number of machine to connect to. |
 
 ### Description
-Use this command to connect to a rented machine. The `MACHINE_ID` can be found by running `vectordash list`. 
+Use this command to connect to a rented Vectordash machine. The `MACHINE_ID` can be found by running `vectordash list`. 
 
 
 ### Example
