@@ -61,14 +61,14 @@ vectordash ssh <machine_id>
 
 #### Example
 ```bash
-$ vectordash ssh 2
-Connecting via SSH to openai-gym...
+$ vectordash ssh 1
+Connecting via SSH to tensorflow-convnet...
 ```
 
 
 ## Sending files to an instance
 
-Use this command to transfer files/directories from your local machine to a rented Vectordash machine. The `machine_id` can be found by running `vectordash list`.
+Use this command to transfer files/directories from your local machine to a rented Vectordash machine. This builds an `scp` command for you under the hood. The `machine_id` can be found by running `vectordash list`.
 
 ```bash
 vectordash push <machine_id> <from_path> <to_path>
@@ -78,13 +78,12 @@ vectordash push <machine_id> <from_path> <to_path>
 | --------------- | ----------- |
 | machine_id | ID number of machine to push files to. |
 | from_path | Path of local file or directory. |
-| to_path | Path to remote Vectordash machine directory. Defaults to the Ubuntu user's home directory. |
+| to_path | Remove path on Vectordash instance. Defaults to the Ubuntu user's home directory. |
 
 
 #### Example
 ```bash
-$ vectordash push 2
-Instance exists...
+$ vectordash push 2 train.py /home/ubuntu/scripts/
 Copying data...
 ```
 
@@ -92,25 +91,24 @@ Copying data...
 
 ## Getting files from an instance
 
-Use this command to transfer files/directories from a Vectordash instance to your local machine. The `machine_id` can be found by running `vectordash list`.
+Use this command to transfer files/directories from a Vectordash instance to your local machine. This builds an `scp` command for you under the hood. The `machine_id` can be found by running `vectordash list`.
 
 ```bash
-vectordash pull MACHINE_ID FROM_PATH TO_PATH
+vectordash pull <machine_id> <from_path> <to_path>
 ```
 
 | Name | Description |
-| --------------- | ------- | ----------- |
-| MACHINE_ID | ID number of machine to pull files from. |
-| FROM_PATH | Path to remote Vectordash machine directory. |
-| TO_PATH | Path of local file or directory. Defaults to the current directory. |
+| --------------- | ----------- |
+| machine_id | ID number of machine to pull the files from. |
+| from_path | Path located on the Vectordash instance. |
+| to_path | Path of local file or directory. Defaults to the current directory. |
 
 
 
 
 #### Example
 ```bash
-$ vectordash pull 3
-Instance exists...
+$ vectordash pull 3 /home/ubuntu/model.dat ~/Desktop/
 Copying data...
 ```
 
@@ -133,6 +131,6 @@ vectordash secret <secret_key>
 
 #### Example
 ```bash
-$ vectordash secret c0nv01utinaln3uraln3tw0rk
+$ vectordash secret c0nv01utiOnaln3uraln3tw0rk
 Secret successfully updated.
 ```
