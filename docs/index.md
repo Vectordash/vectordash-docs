@@ -25,7 +25,7 @@ To authenticate your client, retrieve your secret key from the [verification pag
 `vectordash secret <secret_key>`
 
 
-# Usage
+## Usage
 Here are the supported Vectordash commands which allow you to interact with your GPU instances via the command line. You will need to have entered a valid secret key beforehand.
 
 
@@ -123,7 +123,7 @@ vectordash secret <secret_key>
 ```
 
 | Name | Description |
-| --------------- | ------- | ----------- |
+| --------------- | ------- |
 | secret_key | Your Vectordash account's secret token. |
 
 
